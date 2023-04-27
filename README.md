@@ -2,7 +2,7 @@
 
 ### Abstract
 We present a novel conformance artefact, namely **Order-Aware Alignments**. 
-These alignments are a further development of the classic (sequential) alignments and allow to define a cost function on the *move level* and additionally introduce a secondary cost function to *quantify the ordering relations* \textit{between} moves. With this secondary cost function, it is possible to assign costs to certain dependencies, e.g., it is possible to penalize dependencies that are not synchronous, i.e., originate either from the log or from the model. Note that this approach by definition supports both totally and partially ordered event data.
+These alignments are a further development of the classic (sequential) alignments and allow to define a cost function on the *move level* and additionally introduce a secondary cost function to *quantify the ordering relations* between moves. With this secondary cost function, it is possible to assign costs to certain dependencies, e.g., it is possible to penalize dependencies that are not synchronous, i.e., originate either from the log or from the model. Note that this approach by definition supports both totally and partially ordered event data.
 To compute order-aware alignments efficiently, we implement several computational strategies including bidirectional search.
 As a side result, we also implement bidirectional search for classic alignments. 
 
